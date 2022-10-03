@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerWreaths", "FlowerWreaths\FlowerWreaths.csproj", "{2BB58917-6FEB-452C-9F67-3C8E51FD3B4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bee", "Bee\Bee.csproj", "{9092E683-15F9-4032-8E77-42D101E28017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetClinic", "VetClinic\VetClinic.csproj", "{90812FC3-9E73-4696-B881-7C6FD17C7B83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BB58917-6FEB-452C-9F67-3C8E51FD3B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB58917-6FEB-452C-9F67-3C8E51FD3B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB58917-6FEB-452C-9F67-3C8E51FD3B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB58917-6FEB-452C-9F67-3C8E51FD3B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9092E683-15F9-4032-8E77-42D101E28017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9092E683-15F9-4032-8E77-42D101E28017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9092E683-15F9-4032-8E77-42D101E28017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9092E683-15F9-4032-8E77-42D101E28017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90812FC3-9E73-4696-B881-7C6FD17C7B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90812FC3-9E73-4696-B881-7C6FD17C7B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90812FC3-9E73-4696-B881-7C6FD17C7B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90812FC3-9E73-4696-B881-7C6FD17C7B83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B59F6CE3-A535-4605-8168-B777918957E6}
+	EndGlobalSection
+EndGlobal
