@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Santa’sSecretHelper", "Santa’sSecretHelper\Santa’sSecretHelper.csproj", "{6EFF6795-0A61-46C6-8A9D-9DC1FA541B25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Santa’sNewList", "Santa’sNewList\Santa’sNewList.csproj", "{0ADBBD8D-267C-4BE6-852A-AAD566D5F36B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EFF6795-0A61-46C6-8A9D-9DC1FA541B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFF6795-0A61-46C6-8A9D-9DC1FA541B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFF6795-0A61-46C6-8A9D-9DC1FA541B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFF6795-0A61-46C6-8A9D-9DC1FA541B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ADBBD8D-267C-4BE6-852A-AAD566D5F36B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADBBD8D-267C-4BE6-852A-AAD566D5F36B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADBBD8D-267C-4BE6-852A-AAD566D5F36B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADBBD8D-267C-4BE6-852A-AAD566D5F36B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B2F5128-2912-44D3-9997-60E106BA2358}
+	EndGlobalSection
+EndGlobal

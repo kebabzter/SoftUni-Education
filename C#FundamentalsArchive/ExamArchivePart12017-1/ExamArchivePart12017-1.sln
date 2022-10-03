@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinoTheWalker", "SinoTheWalker\SinoTheWalker.csproj", "{C5073C7A-F578-4C7C-AAC2-B9E3B0A6B8EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniKaraoke", "SoftUniKaraoke\SoftUniKaraoke.csproj", "{19D2F8CD-953E-4926-A80D-881F37EC24CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5073C7A-F578-4C7C-AAC2-B9E3B0A6B8EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5073C7A-F578-4C7C-AAC2-B9E3B0A6B8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5073C7A-F578-4C7C-AAC2-B9E3B0A6B8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5073C7A-F578-4C7C-AAC2-B9E3B0A6B8EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D2F8CD-953E-4926-A80D-881F37EC24CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D2F8CD-953E-4926-A80D-881F37EC24CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D2F8CD-953E-4926-A80D-881F37EC24CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D2F8CD-953E-4926-A80D-881F37EC24CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5640CBD-82BB-4DED-9844-7130BC603795}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfWeek", "DayOfWeek\DayOfWeek.csproj", "{53C6E8EF-265E-4D34-A481-613F71678589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomizeWords", "RandomizeWords\RandomizeWords.csproj", "{AA758C66-4DC0-4351-891C-EDED926AA4D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigFactorial", "BigFactorial\BigFactorial.csproj", "{D514F5A8-92B9-47A8-9408-E57117DB4436}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceBetweenPoints", "DistanceBetweenPoints\DistanceBetweenPoints.csproj", "{6431E53A-D74A-4636-8FC9-C9AD9E004483}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClosestTwoPoints", "ClosestTwoPoints\ClosestTwoPoints.csproj", "{8334DBD4-C995-4DDE-9D91-EC7C8173E0A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectanglePosition", "RectanglePosition\RectanglePosition.csproj", "{3ED948F7-232F-4B63-A13F-AE6065711EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesReport", "SalesReport\SalesReport.csproj", "{6BAB91CF-612E-4D52-AF79-411B8A6EF968}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53C6E8EF-265E-4D34-A481-613F71678589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C6E8EF-265E-4D34-A481-613F71678589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C6E8EF-265E-4D34-A481-613F71678589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C6E8EF-265E-4D34-A481-613F71678589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA758C66-4DC0-4351-891C-EDED926AA4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA758C66-4DC0-4351-891C-EDED926AA4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA758C66-4DC0-4351-891C-EDED926AA4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA758C66-4DC0-4351-891C-EDED926AA4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D514F5A8-92B9-47A8-9408-E57117DB4436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D514F5A8-92B9-47A8-9408-E57117DB4436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D514F5A8-92B9-47A8-9408-E57117DB4436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D514F5A8-92B9-47A8-9408-E57117DB4436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6431E53A-D74A-4636-8FC9-C9AD9E004483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6431E53A-D74A-4636-8FC9-C9AD9E004483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6431E53A-D74A-4636-8FC9-C9AD9E004483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6431E53A-D74A-4636-8FC9-C9AD9E004483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8334DBD4-C995-4DDE-9D91-EC7C8173E0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8334DBD4-C995-4DDE-9D91-EC7C8173E0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8334DBD4-C995-4DDE-9D91-EC7C8173E0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8334DBD4-C995-4DDE-9D91-EC7C8173E0A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED948F7-232F-4B63-A13F-AE6065711EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED948F7-232F-4B63-A13F-AE6065711EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED948F7-232F-4B63-A13F-AE6065711EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED948F7-232F-4B63-A13F-AE6065711EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BAB91CF-612E-4D52-AF79-411B8A6EF968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAB91CF-612E-4D52-AF79-411B8A6EF968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAB91CF-612E-4D52-AF79-411B8A6EF968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAB91CF-612E-4D52-AF79-411B8A6EF968}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF7337B4-1AEA-4C8B-BCEA-3094125E9B0C}
+	EndGlobalSection
+EndGlobal
