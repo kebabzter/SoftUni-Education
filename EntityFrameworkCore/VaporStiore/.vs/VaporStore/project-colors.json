@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ed12e334-be70-4871-974e-392404f6fbe1": {
+      "ProjectGuid": "ed12e334-be70-4871-974e-392404f6fbe1",
+      "DisplayName": "VaporStore",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
