@@ -17,9 +17,9 @@
             <h5>Shared trip Buddies</h5>
             <div>
                 {{#if buddies}}
-                    {{#each buddies}}
-                    <p>{{this}}</p>
-                    {{/each}}
+                    {{#if buddies}}
+                    <p>{{buddiesList}}</p>
+                    {{/if}}
                 {{else}}
                 <p>there are no buddies yet...</p>
                 {{/if}}
@@ -40,21 +40,21 @@
                     disabled>{{description}}</textarea>
                 <h5>Price: <span class="lead">{{price}}</span> BGN</h5>
 
-                <!-- if there are no logged in user do not show div with class actions  -->
                 <div class="actions">
-                    <!-- Only for logged user and creator to this trip -->
                     {{#if isCreator}}
                     <a href="/trips/{{_id}}/delete" class="btn btn-danger">Delete this trip</a>
                     <a href="/trips/{{_id}}/edit" class="btn btn-warning">Edit this trip</a>
                     {{else}}
-                    <!-- logged in user with available seats -->
-                    <a href="/trips/{{_id}}/join" class="btn btn-join">Join now, [ {{seats}} ] seats left!</a>
+                        {{#if hasJoined}}
+                        <span class="btn btn-info">Already joined. Don't be late!</span>
+                        {{else}}
+                            {{#if hasSeats}}
+                            <a href="/trips/{{_id}}/join" class="btn btn-join">Join now, [ {{seats}} ] seats left!</a>
+                            {{else}}
+                            <span class="btn btn-secondary">No seats available!</span>
+                            {{/if}}
+                        {{/if}}
 
-                    <!-- logged in user and has already joined the trip  -->
-                    <span class="btn btn-info">Already joined. Don't be late!</span>
-
-                    <!-- logged in user with no available seats -->
-                    <span class="btn btn-secondary">No seats available! [0]</span>
                     {{/if}}
                 </div>
 

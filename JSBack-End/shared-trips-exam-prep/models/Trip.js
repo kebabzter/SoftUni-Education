@@ -16,7 +16,7 @@ const tripSchema = new Schema({
     price: {type: Number, required: true},
     description: {type: String, required: true},
     creator: {type: Types.ObjectId, ref: 'User', required: true},
-    buddies: {type: [{type: [Types.ObjectId], ref: 'User'}], default: [] },
+    buddies: {type: [Types.ObjectId], ref: 'User', default: [] },
 });
 
 const Trip = model('Trip', tripSchema);

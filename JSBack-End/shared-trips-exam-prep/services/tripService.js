@@ -32,6 +32,31 @@ async function deleteById(id){
     await Trip.findByIdAndRemove(id)
 }
 
+async function joinTrip(tripId, userId){
+    const trip = await Trip.findById(tripId)
+    const user = await User.findById(userId)
+
+    user.tripsHistory.push(tripId)
+    trip.buddies.push(userId);
+    trip.seats--;
+    await user.save();
+    await trip.save();
+}
+
+// async function getBuddies(tripId){
+//     const trip = await getById(tripId)
+//     const buddieList = [];
+//     for (let index = 0; index < trip.buddies.length; index++) {
+//         const user = User.findById(trip.buddies[index]).lean()
+//         buddieList.push(user)
+//     }
+//     return buddieList;
+// }
+
+async function getTripAndUsers(id){
+    return Trip.findById(id).populate('creator').populate('buddies').lean();
+}
+
 module.exports = {
     getAll,
     getAllByUserId,
@@ -39,4 +64,7 @@ module.exports = {
     deleteById,
     update,
     getById,
+    joinTrip,
+    getTripAndUsers
+    // getBuddies
 }
