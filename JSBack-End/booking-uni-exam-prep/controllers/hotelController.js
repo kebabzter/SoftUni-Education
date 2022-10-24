@@ -35,7 +35,7 @@ hotelController.post('/create', async (req,res) => {
 
     try {
         if (Object.values(hotel).some (v => !v)){
-            throw new Errors('All fields are required')
+            throw new Error('All fields are required')
         }
 
         await create(hotel)
