@@ -81,11 +81,11 @@ tripsController.get('/:id/join', async (req, res) => {
     try {
         if(trip.creator == req.user._id){
             trip.isCreator = true;
-            return Error('Cannot join your own trip');
+            throw new Error('Cannot join your own trip');
         }
         if(trip.seats == 0){
             trip.hasSeats = false;
-            return Error('There are no seats available');
+            throw new Error('There are no seats available');
         }
         if(trip.buddies.map(b => b.toString()).includes(req.user._id.toString())){
             trip.hasJoined = true;
