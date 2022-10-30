@@ -1,0 +1,81 @@
+.details-container {
+  background-color: white;
+  width: 60%;
+  min-height: 46em;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+}
+
+.details-container-image {
+  padding-top: 2%;
+}
+
+.details-container-image img {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.details-container-info {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.details-container-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-container-info p {
+  width: 60%;
+  text-align: center;
+}
+
+.details-container-content {
+  width: 100%;
+}
+
+.details-container-content p {
+  width: 70%;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.btn-container a {
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  background-color: black;
+}
+
+.btn-container {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.follow-pub {
+  display: inline-block;
+  color: white;
+  width: 30%;
+  font-size: 26px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: black;
+  align-items: center;
+}
