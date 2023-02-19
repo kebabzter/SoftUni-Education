@@ -1,0 +1,172 @@
+body{
+    font-family: 'Poppins';
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    object-fit: cover;
+    height: 36rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 2rem;
+}
+
+.navigation .title{
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navigation ul li, .navigation ul .btn{
+    font-size: normal;
+}
+
+.btn{
+    border-radius: 30px;
+    font-size: small;
+    background-color: black;
+    color: white;
+    padding: 3px 2.5rem;
+}
+
+.booking{
+    position: absolute;
+    top: 13rem;
+    left: 18rem;
+}
+
+.booking .title{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.booking .subtitle{
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.booking .content{
+    width: 60%;
+    font-size: 15px;
+    margin-bottom: 2.5rem;
+}
+
+/* Recommended */
+
+.recommended{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.recommended .subtitle{
+    color: grey;
+    font-size: small;
+    font-weight:normal
+}
+
+/* Cards */
+
+.cards{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem
+}
+
+.cards .card .desc{
+    color: grey;
+    font-size: x-small;
+    margin-bottom: .5rem;
+}
+
+
+
+.cards .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    width: 15rem;
+    height: 25rem;
+}
+
+.cards .card img{
+    flex-basis: 100%;
+    width: 15rem;
+    height: 14rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.cards .card .card-title{
+    font-weight: bold;
+    margin: .75rem auto;
+}
+
+.cards .card .card-btn{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: x-small;
+    width:70%;
+    margin: 1rem auto;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 3rem 5rem;
+    gap:7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1{
+    font-size: x-large;
+}
+
+footer ul li{
+    font-size: x-small;
+    margin-top: .5rem;
+}
+
+footer .follow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    font-size: x-small;
+}
+
+footer .icons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+}
